@@ -1,0 +1,19 @@
+nota1=90
+nota2=50
+nota3=60
+nota4=80
+
+promedio=(nota1+nota2+nota3+nota4)//4
+
+print(promedio)
+
+print(f"mi promedio es {promedio}")      #la f se utiliza para meter variables en un print sin que de error
+
+mensaje= " pasaste estas en  11 año\n"   #el slash n es para dejar un espacio 
+
+mensaje2= """vamos con todo
+            felicidades
+            nos vemos eñ proximo año"""
+
+
+print("")
