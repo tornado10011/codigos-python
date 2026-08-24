@@ -13,9 +13,9 @@ print(f"el pais donde juega la juventus es {pais}")
 diccionario.pop("juventus")   #elimina una parte del diccionario
 print(diccionario)
 
-copydicc=diccionario.copy()
+copydicc=diccionario.copy()  #es para copiar el diccionario completo
 print(copydicc)
 
-diccionario.clear()
+diccionario.clear()     #es para borrar el diccionario completo
 print(diccionario)
 
