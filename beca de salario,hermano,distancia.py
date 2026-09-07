@@ -14,3 +14,5 @@ if pregsalario<salario and preghermanos<hermanos and pregdist<distancia:
     print("su beca fue aceptada")
 else:
     print("su beca fue rechazada")
+
+    

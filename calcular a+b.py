@@ -1,7 +1,7 @@
 print("vamos a calcular a+b\n")
 
-a=float(input("indique cual va a ser el numero a: "))
-b=float(input("indique cual va a ser el numero b: "))
+a=int(input("indique cual va a ser el numero a: "))
+b=int(input("indique cual va a ser el numero b: "))
 
 suma=((a+b)**2)/3
 
