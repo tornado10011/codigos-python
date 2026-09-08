@@ -11,3 +11,5 @@ for estudiante in estudiantes:
         ausente.append(estudiante)
         print(f"el estudiante no esta presente, se añadira en la lista de ausentes \n{ausente}\n")
 print(f"\n los estudiantes presente son: {present} \n y los ausentes son: {ausente}")    #mostrara un mensaje final con todos los estudiantes presentes y ausentes
+
+
