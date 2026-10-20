@@ -4,14 +4,20 @@ os.system("cls")
 
 for i in range(2):
 
-    produ = input("Escriba el nombre del producto: ")
-    os.system("pause")
-    os.system("cls")
-    
-    print(f"El producto a ingresar seria: {produ}")
-    precio_produ = float(input("Digite el precio del producto: "))
-    desc = int(input("Si tiene descuento presione 1. Si no tiene descuento presione 2: "))
-    
+    try:
+
+        produ =(input("Escriba el nombre del producto: "))
+        os.system("pause")
+        os.system("cls")
+        
+        print(f"El producto a ingresar seria: {produ}")
+        precio_produ = float(input("Digite el precio del producto: "))
+        desc = int(input("Si tiene descuento presione 1. Si no tiene descuento presione 2: "))
+
+    except ValueError:
+        print("ingreso algun dato erroneo, porfavor vuelva a ingresar los datos")
+        continue
+        
     producto = (produ, precio_produ, desc)
     nombre, precio, tiene_descuento = producto
 
@@ -43,7 +49,6 @@ El producto seria: {nombre}
 Con un precio final de: {precio}""")
         os.system("pause")
         os.system("cls")
-
 
 
 import os
