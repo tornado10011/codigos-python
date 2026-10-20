@@ -1,0 +1,5 @@
+tarjeta_de_video,450000
+ram_soddim,35000
+procesador,189450
+silla_gamer,38945
+pasta_termica,4500

@@ -1,0 +1,6 @@
+laptop
+teclado
+monitor
+tarjeta_madre
+memoria dimm 
+fuente_de_poder
